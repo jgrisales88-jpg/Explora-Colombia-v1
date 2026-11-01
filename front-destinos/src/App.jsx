@@ -6,7 +6,7 @@ function App() {
   const [nombre, setNombre] = useState("");
   const [departamento, setDepartamento] = useState("");
 
-  const API = "http://localhost:3000/api/destinos";
+const API = "https://explora-colombia-zmxl.onrender.com/api/destinos";
 
   // Consultar los destinos
   const cargarDestinos = async () => {
