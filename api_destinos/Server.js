@@ -139,6 +139,6 @@ app.delete("/api/destinos/:id", (req, res) => {
 });
 
 // Iniciar servidor
-app.listen(PORT,"0.0.0.0.0", () => {
-  console.log(`API activa en http:  //localhost:${PORT}`);
+app.listen(PORT,"0.0.0.0", () => {
+  console.log(`API activa en http://localhost:${PORT}`);
 });
